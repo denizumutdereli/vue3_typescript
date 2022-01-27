@@ -26,8 +26,8 @@ interface Token {
 }
 
 //const prefixUrl = process.env.api_prefix as string
-//const prefixUrl = 'https://nodejs-vending-machine-restapi.herokuapp.com/'
-const prefixUrl = 'http://localhost:3000/'
+const prefixUrl = 'https://nodejs-vending-machine-restapi.herokuapp.com/'
+//const prefixUrl = 'http://localhost:3000/'
 
 let task: Promise<string | undefined> | null = null
 
