@@ -1,0 +1,52 @@
+{
+  "name": "my-ts_project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --openssl-legacy-provider build",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@vicons/ionicons5": "^0.11.0",
+    "axios": "^0.25.0",
+    "core-js": "^3.6.5",
+    "ky": "^0.28.7",
+    "naive": "^0.0.0",
+    "reflect-metadata": "^0.1.13",
+    "sequelize": "^6.14.1",
+    "sequelize-typescript": "^2.1.2",
+    "vue": "^3.0.0",
+    "vue-class-component": "^8.0.0-0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.11",
+    "@types/mocha": "^5.2.4",
+    "@types/node": "^17.0.12",
+    "@types/validator": "^13.7.1",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-e2e-cypress": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-unit-mocha": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "@vue/test-utils": "^2.0.0-0",
+    "chai": "^4.1.2",
+    "dotenv-webpack": "^7.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "naive-ui": "^2.24.6",
+    "typescript": "~4.1.5",
+    "vfonts": "^0.0.3"
+  }
+}

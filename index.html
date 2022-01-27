@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Loading...</title>
+</head>
+
+<body>
+  <div id="app">
+    <img class="aligncenter size-full wp-image-2931 lazy-loaded entered loaded" src="https://wpamelia.com/wp-content/uploads/2018/11/ezgif-2-5468d589f84e.gif" data-lazy-type="image" data-src="https://wpamelia.com/wp-content/uploads/2018/11/ezgif-2-5468d589f84e.gif" alt="" width="800" height="230" data-no-retina="true" data-ll-status="loaded">
+    <style>
+      :root {
+        --bg-color: #0c0c0c;
+        --fg-color: #005b9c;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-color: #000;
+          --fg-color: #dff0fc;
+        }
+      }
+      body {
+        padding: 35vh 0 0;
+        background: var(--bg-color);
+        text-align: center;
+      }
+      path {
+        fill: var(--fg-color);
+        animation: fade 0.8s steps(8) infinite;
+      }
+      @keyframes fade {
+        to {
+          opacity: 0;
+        }
+      }
+    </style>
+    <!-- prettier-ignore -->
+    
+  </div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
